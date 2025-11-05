@@ -307,11 +307,6 @@ a:active {
     background-color: var(--button-hover-background);
 }
 
-/* Dark theme button color override */
-[data-section-theme="dark"] {
-    --button-color: var(--color-white);
-}
-
 .visually-hidden {
     display: none;
 }
@@ -444,6 +439,7 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
+    --button-color: var(--color-white);
 }
 
 /* Footer address */
