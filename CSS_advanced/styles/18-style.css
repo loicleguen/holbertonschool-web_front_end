@@ -236,6 +236,7 @@ html {
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
 
+    /* Navbar custom properties */
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -335,14 +336,14 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-nav {
+.nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-nav .nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -351,11 +352,11 @@ nav .nav-item {
     margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
 }
 
-nav .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
