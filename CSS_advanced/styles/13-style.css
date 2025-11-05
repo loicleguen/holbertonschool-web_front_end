@@ -51,7 +51,7 @@ body {
 }
 
 /* Target only anchor elements with href */
-a [href] {
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
